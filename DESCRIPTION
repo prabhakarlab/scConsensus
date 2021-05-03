@@ -1,0 +1,12 @@
+Package: scConsensus
+Type: Package
+Title: Combining supervised and supervised clustering of scRNA-seq data
+Version: 0.1.0
+Author: Bobby Ranjan, Florian Schmidt
+Maintainer: Bobby Ranjan <ranjanb@gis.a-star.edu.sg>, Florian Schmidt <Florian_Schmidt@gis.a-star.edu.sg>
+Description: Consolidates two complementary clustering results to leverage the information from both. It creates a contingency table to allow the user to manually or automatically combine clustering results. This consensus set of cluster labels is then refined by re-clustering the cells on differentially expressed genes between the merged clusters.
+Imports: BiocManager, edgeR, WGCNA, GO.db, AnnotationDbi, preprocessCore, mclust, ComplexHeatmap, circlize, reshape2, flashClust, calibrate, dynamicTreeCut, irlba
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
